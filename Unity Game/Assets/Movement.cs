@@ -29,6 +29,6 @@ public class Movement : MonoBehaviour
 
         //Zoom in and out with Mouse Wheel
         Debug.Log(Input.GetAxis("Mouse ScrollWheel"));
-        transform.Translate(0, 0, (Input.GetAxis("Mouse ScrollWheel") + (Input.GetKey(KeyCode.S) ? -0.01f : 0) + (Input.GetKey(KeyCode.W) ? 0.01f : 0))* zoomSpeed, Space.Self);
+        transform.Translate((Input.GetKey(KeyCode.A) ? -0.01f : 0) + (Input.GetKey(KeyCode.D) ? 0.01f : 0) * zoomSpeed, 0, (Input.GetAxis("Mouse ScrollWheel") + (Input.GetKey(KeyCode.S) ? -0.01f : 0) + (Input.GetKey(KeyCode.W) ? 0.01f : 0))* zoomSpeed, Space.Self);
     }
 }
