@@ -956,6 +956,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Looking Around
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 6e601f96ff7bbb84c866d9583b590f88,
+        type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 6e601f96ff7bbb84c866d9583b590f88,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d2fb651aa985bdc46bb89bb205b60e98, type: 2}
+    - target: {fileID: -6057140222963153312, guid: 6e601f96ff7bbb84c866d9583b590f88,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6e601f96ff7bbb84c866d9583b590f88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1025,21 +1040,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: 6e601f96ff7bbb84c866d9583b590f88,
-        type: 3}
-      propertyPath: m_CullingMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: 6e601f96ff7bbb84c866d9583b590f88,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: d2fb651aa985bdc46bb89bb205b60e98, type: 2}
-    - target: {fileID: -6057140222963153312, guid: 6e601f96ff7bbb84c866d9583b590f88,
-        type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e601f96ff7bbb84c866d9583b590f88, type: 3}
@@ -1575,7 +1575,7 @@ Light:
   m_Type: 2
   m_Color: {r: 0.60294116, g: 0.54668295, b: 0.39900517, a: 1}
   m_Intensity: 2
-  m_Range: 10
+  m_Range: 100
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -2749,7 +2749,7 @@ Light:
   m_Type: 2
   m_Color: {r: 0.60294116, g: 0.54668295, b: 0.39900517, a: 1}
   m_Intensity: 2
-  m_Range: 10
+  m_Range: 100
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
