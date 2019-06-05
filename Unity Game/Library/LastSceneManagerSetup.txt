@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Good Macbeth.unity
+- path: Assets/Transitions/Finale Macbeth.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
